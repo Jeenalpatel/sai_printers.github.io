@@ -1,0 +1,457 @@
+.service
+{
+  width: 100%;
+  height: auto;
+}
+.top_service
+{
+  padding: 190px 0 80px;
+  position: relative;
+  background: #10455b;
+  z-index: 1;
+  overflow: hidden;
+}
+.service_shap_wp
+{
+  width: 950px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -230px;
+  transform: skewX(-30deg);
+  overflow: hidden;
+  z-index: 0;
+}
+.service_shap_wp:after
+{
+  content: "";
+  display: block;
+  position: absolute;
+  background: #f9f3ed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .9;
+}
+.ser_img_show
+{
+  padding-left: 100px;
+}
+.preview
+{
+  height: 300px;
+  width: 70%;
+}
+.thum_main
+{
+  padding: 20px 0px 20px;
+  padding-left: 50px;
+}
+.thum
+{
+  height: 70px;
+  width: 100px;
+  cursor: pointer;
+}
+.selector
+{
+  border: 5px solid #10455b;
+}
+.heading
+{
+  width: 100%;
+  color: #f9f3ed;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.visi_form_start
+{
+  padding-left: 100px;
+}
+.visi_form
+{
+  width: 80%;
+  padding-top: 50px;
+}
+.visi_form select
+{
+  height: 40px;
+  width: 80%;
+  padding: 5px;
+  border: 2px solid #f9f3ed;
+  background: transparent;
+  color: #f9f3ed;
+}
+.visi_form option
+{
+  color: #000;
+}
+.visi_form lable
+{
+  color: #f9f3ed;
+  font-size: 20px;
+}
+.price
+{
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.visi_form input
+{
+  padding: 5px 0px 5px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: 1px solid #f9f3ed;
+  background-color:transparent;
+  transition: 0.3s;
+  font-weight: 600;
+  width: 30%;
+  color: #f9f3ed;
+  margin: 0px;
+}
+.visi_form input:hover
+{
+  background-color: #f9f3ed;
+  color: #10455b;
+}
+.sub_btn
+{
+  padding: 30px 0px 0px !important;
+  margin: 0px auto !important;
+}
+.p_second_row,.p_three_row
+{
+  padding-top: 30px;
+}
+.visi_type_show
+{
+  padding:0px 20px 40px;
+  width: 100%;
+  color: #10455b;
+  font-weight: 800;
+  font-size: 30px;
+  padding-left: 100px;
+}
+.price_list
+{
+  background-image: url(../img1/price_list.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-position: center;
+  object-fit: cover;
+  position: relative;
+  /* height: 800px; */
+  padding: 130px 0px 150px;
+  width: 100%;
+}
+.price_list:before
+{
+  content: "";
+  display: block;
+  position: absolute;
+  background: #f9f3ed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .7;
+}
+.set_price_img
+{
+  height: 600px;
+  width: 70%;
+  top: -200px;
+  transform: skewX(-20deg);
+  left: 230px;
+  position: absolute;
+  background-color: #10455b;
+  z-index: 3;
+}
+.set_price_img_set
+{
+  height: 99%;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-image: url(../img1/show_price_list.jpg);
+  position: relative;
+  left: -30px;
+  top: -30px;
+}
+.set_price_img_set:after
+{
+  content: "";
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #000;
+  opacity: .4;
+}
+.visi_price_info
+{
+   padding-left: 100px; 
+}
+.price_col_title 
+{
+  text-align:center;
+  font-weight: 400px;
+  font-size: 20px;
+  color: #10455b;
+  font-weight: 700;
+}
+.price_col_val
+{
+  font-size: 17px;
+  font-weight: 500;
+  /* color: #000 !important; */
+}
+.visi_rate
+{
+  color: #000;
+}
+.rendom_choice
+{
+  padding-top: 50px;
+}
+.rendom_choice p
+{
+  padding: 10px 30px 10px;
+  background: 0 0;
+  color: #10455b;
+  border: 3px solid #10455b;
+  width: 100%;
+  text-align:center;
+  font-weight: 600;
+  font-size: 20px;
+  outline: none;
+}
+
+.Quality_info
+{
+  position: relative;
+  background-color: #10455b;
+  padding: 100px 50px 100px;
+  width: 100%;
+}
+.q_i_up
+{
+  padding: 0px 0px 50px;
+}
+.q_i_down .q_box
+{
+  margin-left: 100px; 
+  width: 70%;
+}
+.q_box
+{
+  height: auto;
+  width: 100%;
+}
+.q_i_1,.q_i_2,.q_i_3,.q_i_4,.q_i_5
+{
+  height: 300px;
+  width: 100%;
+  background-color: black;
+  position: relative;
+  transform: skewX(-10deg);
+}
+.q_i_1 img,.q_i_2 img,.q_i_3 img,.q_i_4 img,.q_i_5 img
+{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.q_i_dis
+{
+  height: auto;
+  width: 90%;
+  margin-top: 10px;
+}
+.q_i_dis h1
+{
+  color: #f9f3ed;
+}
+.q_i_dis p
+{
+  color: #f9f3ed !important;
+  font-size: 20px;
+  line-height: 1.5;
+}
+@media (max-width: 1199px)
+{
+  .set_price_img {
+    height: 600px;
+    width: 70%;
+    top: 0px;
+    transform: skewX(0deg);
+    left: 90px;
+    position: absolute;
+}
+  .preview {
+    height: 250px;
+    width: 80%;
+    margin-left: -20px;
+}
+.service_shap_wp:after {
+    height: 100%;
+    width: 85%;
+}
+}
+
+@media (max-width: 991px)
+{
+  .service_shap_wp {
+    width: 150%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    transform: skewX(0deg); 
+}
+.ser_img_show {
+    padding-left: 100px;
+    margin-left: 100px;
+}
+.preview {
+    width: 70%;
+}
+.visi_form_start {
+    padding-top: 150px;
+}
+.visi_price_info {
+     padding-left: 0px; 
+}
+.set_price_img
+{
+  display: none;
+}
+.price_col_title {
+    padding: 0px 50px;
+}
+.q_i_up {
+    padding: 0px 80px 50px;
+}
+.q_box {
+    padding-bottom: 50px;
+}
+}
+@media (max-width: 575px)
+{
+.preview {
+    width: 100%;
+}
+.ser_img_show {
+    margin-left: -60px;
+}
+.q_i_down {
+    margin-left: -50px;
+}
+
+}
+@media (max-width: 480px)
+{
+    .q_i_up {
+    padding: 0px 0px 50px;
+  }
+  .q_i_down .q_box {
+     margin-left: 40px; 
+    width: 90%;
+}
+.visi_form_start {
+    padding-left: 60px;
+}
+.visi_type_show {
+    padding-left: 50px;
+}
+.visi_form input {
+    width: 50%;
+}
+}
+@media (max-width: 375px)
+{
+  .q_i_1 img, .q_i_2 img, .q_i_3 img, .q_i_4 img, .q_i_5 img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.q_i_1, .q_i_2, .q_i_3, .q_i_4, .q_i_5 {
+    height: 300px;
+     background-color: transparent; 
+}
+.thum_main {
+    padding: 20px 0px 20px;
+     padding-left: 0px; 
+}
+.price_col_title {
+    padding: 0px 20px;
+}
+}
+@media (max-width: 320px)
+{
+.thum_main {
+    padding: 20px 0px 20px;
+     padding-left: 0px; 
+}
+.visi_form_start {
+    margin-left: 40px;
+    padding-left: 0px;
+}
+.heading {
+    font-size: 30px;
+}
+.price_col_title {
+    padding: 0px 20px;
+}
+
+.price_col_title {
+    font-size: 15px;
+}
+.price_col_val {
+    font-size: 10px;
+}
+.q_i_1 img, .q_i_2 img, .q_i_3 img, .q_i_4 img, .q_i_5 img {
+    height: 100%;
+}
+.q_i_1, .q_i_2, .q_i_3, .q_i_4, .q_i_5 {
+    height: 150px;
+
+    /* background-color: transparent; */
+}
+.q_i_dis h1 {
+    font-size: 20px;
+    font-weight: 800;
+}
+.q_i_dis p {
+    font-size: 15px;
+    line-height: 1.2;
+}
+.q_box {
+    padding-bottom: 20px;
+}
+
+
+.q_i_1, .q_i_2, .q_i_3, .q_i_4, .q_i_5 {
+    height: 150px;
+     transform: skewX(0deg); 
+
+
+}
+.visi_type_show {
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 30px;
+}
+.price_list
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+}
